@@ -1,0 +1,22 @@
+{
+  "name": "backgroundgen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "genBgFun.js",
+  "scripts": {
+    "build": "browserify genBgFun.js > bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devhuzi/backgroundGen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devhuzi/backgroundGen/issues"
+  },
+  "homepage": "https://github.com/devhuzi/backgroundGen#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
